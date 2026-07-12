@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "forever-healthy",
+  "owner": {
+    "name": "Forever Healthy"
+  },
+  "plugins": [
+    {
+      "name": "evipedia",
+      "source": "./evipedia",
+      "description": "Evipedia MCP Server & /demo skill"
+    }
+  ]
+}

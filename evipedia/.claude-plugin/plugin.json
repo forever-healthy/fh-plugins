@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "evipedia",
+  "version": "0.1.0",
+  "description": "Evipedia MCP Server & /demo skill",
+  "author": {
+    "name": "Forever Healthy",
+    "url": "https://www.forever-healthy.org"
+  },
+  "homepage": "https://evipedia.ai",
+  "repository": "https://github.com/forever-healthy/evipedia-mcp",
+  "license": "MIT",
+  "keywords": ["evipedia", "health", "longevity", "evidence-based", "mcp"],
+  "mcpServers": "./.mcp.json"
+}
