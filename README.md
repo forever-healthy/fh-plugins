@@ -5,17 +5,12 @@
 
 A [Claude Code plugin marketplace](https://docs.claude.com/en/docs/claude-code/plugins) from [Forever Healthy](https://forever-healthy.org), for working with [evipedia.ai](https://evipedia.ai) — our continuously-updated encyclopedia of evidence reviews on health & longevity interventions.
 
-## Add the marketplace
+## Install
 
-In Claude Code:
+In Claude Code, add the marketplace and install the plugin:
 
 ```
 /plugin marketplace add forever-healthy/fh-plugins
-```
-
-Then install a plugin from it:
-
-```
 /plugin install evipedia@forever-healthy
 ```
 
