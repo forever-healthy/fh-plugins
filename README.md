@@ -23,7 +23,9 @@ Connects Claude to the **Evipedia MCP server** and bundles a `/demo` skill.
 * **MCP tools** — search Evipedia reviews, read full reviews and their conclusions, and suggest new interventions, all against live [evipedia.ai](https://evipedia.ai) data. The server runs over stdio via `npx -y evipedia-mcp@latest` (requires Node.js ≥ 18).
 * **`/demo` skill** — smoke-tests the connection by walking through the read tools against live data.
 
-The MCP server is maintained at [forever-healthy/evipedia-mcp](https://github.com/forever-healthy/evipedia-mcp) and published to npm as [`evipedia-mcp`](https://www.npmjs.com/package/evipedia-mcp). See [`evipedia/`](./evipedia) for the plugin manifest and its bundled MCP config.
+The MCP server is maintained at [forever-healthy/evipedia-mcp](https://github.com/forever-healthy/evipedia-mcp) and published to npm as [`evipedia-mcp`](https://www.npmjs.com/package/evipedia-mcp).
+
+See [`evipedia/`](./evipedia) for the plugin manifest and its bundled MCP config.
 
 ## License
 
