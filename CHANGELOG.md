@@ -1,6 +1,11 @@
 # Forever Healthy Plugins — Change Log
 
 
+### v0.1.2 — 2026-07-16
+
+* `/demo` skill: resync from evipedia-mcp (skill version scheme moved to semver)
+
+
 ### v0.1.1 — 2026-07-16
 
 * `/demo` skill: recognize the evipedia MCP tools when reached over the Claude

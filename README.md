@@ -1,4 +1,4 @@
-![Version 0.1.1](https://img.shields.io/badge/Version-0.1.1-green.svg)
+![Version 0.1.2](https://img.shields.io/badge/Version-0.1.2-green.svg)
 [![Forever Healthy](https://img.shields.io/badge/(c)_2026-Forever_Healthy-573D7D.svg)](https://forever-healthy.org)
 
 # Forever Healthy — Claude Plugins
