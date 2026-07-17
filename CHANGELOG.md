@@ -1,6 +1,13 @@
 # Forever Healthy Plugins — Change Log
 
 
+### v0.2.0 — 2026-07-17
+
+* New plugin **`evipedia-remote`** — connects to the hosted Evipedia MCP server at
+  `https://mcp.evipedia.ai/mcp` over HTTP (no local Node.js needed). Same MCP tools
+  and bundled `/demo` skill as `evipedia`; the two differ only in transport.
+
+
 ### v0.1.4 — 2026-07-17
 
 * `/demo` skill: resync from evipedia-mcp — no content change; server version

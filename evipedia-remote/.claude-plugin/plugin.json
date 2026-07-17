@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "evipedia",
+  "name": "evipedia-remote",
   "version": "0.1.26",
-  "description": "Evipedia MCP Server (local, over stdio via npx) & /demo skill",
+  "description": "Evipedia hosted MCP Server (remote, over HTTP) & /demo skill",
   "author": {
     "name": "Forever Healthy",
     "url": "https://www.forever-healthy.org"
@@ -10,6 +10,6 @@
   "homepage": "https://evipedia.ai",
   "repository": "https://github.com/forever-healthy/evipedia-mcp",
   "license": "MIT",
-  "keywords": ["evipedia", "health", "longevity", "evidence-based", "mcp"],
+  "keywords": ["evipedia", "health", "longevity", "evidence-based", "mcp", "remote"],
   "mcpServers": "./.mcp.json"
 }

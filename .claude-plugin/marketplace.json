@@ -8,7 +8,12 @@
     {
       "name": "evipedia",
       "source": "./evipedia",
-      "description": "Evipedia MCP Server & /demo skill"
+      "description": "Evipedia MCP Server (local, over stdio via npx) & /demo skill"
+    },
+    {
+      "name": "evipedia-remote",
+      "source": "./evipedia-remote",
+      "description": "Evipedia hosted MCP Server (remote, over HTTP) & /demo skill"
     }
   ]
 }

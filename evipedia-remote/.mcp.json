@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "evipedia": {
+      "type": "http",
+      "url": "https://mcp.evipedia.ai/mcp"
+    }
+  }
+}
