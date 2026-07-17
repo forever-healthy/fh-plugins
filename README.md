@@ -26,7 +26,3 @@ Same MCP tools and `/demo` skill as `evipedia`, but connects to the **hosted Evi
 See [`evipedia-remote/`](./evipedia-remote) for the plugin manifest and its bundled MCP config.
 
 The MCP server is maintained at [forever-healthy/evipedia-mcp](https://github.com/forever-healthy/evipedia-mcp) and published to npm as [`evipedia-mcp`](https://www.npmjs.com/package/evipedia-mcp).
-
-## License
-
-[MIT](./LICENSE) © Forever Healthy Foundation
