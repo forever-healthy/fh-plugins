@@ -1,27 +1,18 @@
 ![Version 0.2.0](https://img.shields.io/badge/Version-0.2.0-green.svg)
 [![Forever Healthy](https://img.shields.io/badge/(c)_2026-Forever_Healthy-573D7D.svg)](https://forever-healthy.org)
 
-# Forever Healthy — Claude Plugins
+# Forever Healthy — Plugin Marketplace
 
-A [Claude Code plugin marketplace](https://docs.claude.com/en/docs/claude-code/plugins) from [Forever Healthy](https://forever-healthy.org), for working with [evipedia.ai](https://evipedia.ai) — our continuously-updated encyclopedia of evidence reviews on health & longevity interventions.
+An [Anthropic style plugin marketplace](https://docs.claude.com/en/docs/claude-code/plugins) for compatible environments (Claude Desktop, Claude Code, Grok Build, ...) by [Forever Healthy](https://forever-healthy.org).
 
-## Install
-
-In Claude Code, add the marketplace and install one of the plugins:
-
-```
-/plugin marketplace add forever-healthy/fh-plugins
-/plugin install evipedia@forever-healthy          # local server (stdio, needs Node.js)
-/plugin install evipedia-remote@forever-healthy   # hosted server (remote, over HTTP)
-```
-
-Both plugins expose the same Evipedia MCP tools and bundle the same `/demo` skill — they differ only in how they reach the server. Install whichever fits your environment (you don't need both).
 
 ## Plugins
 
+For detailed instructions on the Evipedia plugins, see [https://evipedia.ai/integration](https://evipedia.ai/integration#evipedia-plugin)
+
 ### `evipedia`
 
-Connects Claude to the **Evipedia MCP server** running locally and bundles a `/demo` skill.
+Connects to the **Evipedia MCP server** running locally and bundles a `/demo` skill.
 
 * **MCP tools** — search Evipedia reviews, read full reviews and their conclusions, and suggest new interventions, all against live [evipedia.ai](https://evipedia.ai) data. The server runs over stdio via `npx -y evipedia-mcp@latest` (requires Node.js).
 * **`/demo` skill** — smoke-tests the connection by walking through the read tools against live data.
