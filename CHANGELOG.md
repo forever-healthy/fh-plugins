@@ -1,6 +1,12 @@
 # Forever Healthy Plugins — Change Log
 
 
+### v0.1.4 — 2026-07-17
+
+* `/demo` skill: resync from evipedia-mcp — no content change; server version
+  tracked to 0.1.26 (plugin manifest stamped accordingly)
+
+
 ### v0.1.3 — 2026-07-16
 
 * `/demo` skill: resync from evipedia-mcp — tightened wording; tool-prefix
