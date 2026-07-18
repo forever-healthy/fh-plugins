@@ -1,6 +1,8 @@
 ![Version 0.2.0](https://img.shields.io/badge/Version-0.2.0-green.svg)
 [![Forever Healthy](https://img.shields.io/badge/(c)_2026-Forever_Healthy-573D7D.svg)](https://forever-healthy.org)
 
+![Forever Healthy](assets/fh-header.png)
+
 # Forever Healthy — Plugin Marketplace
 
 An [Anthropic style plugin marketplace](https://docs.claude.com/en/docs/claude-code/plugins) for compatible environments (Claude Desktop, Claude Code, Grok Build, ...) by [Forever Healthy](https://forever-healthy.org).
